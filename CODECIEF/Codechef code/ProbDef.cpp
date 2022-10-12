@@ -9,6 +9,9 @@ int main()
         for(int i =0 ; i<4 ;i++){   // input array of 4
             cin>>arr[i];
         }
+         for(int i =0 ; i<4 ;i++){   // input array of 4
+            cin>>arr[i];
+        }
         for(int i =0 ; i<3 ;i++){  // selection sorting algorithm 
             for(int j=i+1; j<3; j++){
                 if(arr[j]<arr[i]){
